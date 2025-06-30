@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Full Stack Developer Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0; padding: 0;
+    }
+
+    header, footer {
+      background-color: #333;
+      color: white;
+      padding: 15px;
+      text-align: center;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    img {
+      width: 150px;
+      border-radius: 50%;
+    }
+
+    form input, form textarea, form select {
+      display: block;
+      margin: 10px 0;
+      padding: 8px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    table, th, td {
+      border: 1px solid #aaa;
+      border-collapse: collapse;
+      padding: 8px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Nahim Ahmad</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <img src="My photo new.jpg" alt="Profile Photo">
+      <p>I am a passionate full stack developer with skills in HTML, CSS, JavaScript, Node.js, and MongoDB.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML & CSS</li>
+        <li>JavaScript</li>
+        <li>React</li>
+        <li>Node.js & Express</li>
+        <li>MongoDB</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <ol>
+        <li><strong>E-Commerce Site</strong> – Built with MERN stack.</li>
+        <li><strong>Blog App</strong> – Full-stack CRUD blog using Node and MongoDB.</li>
+      </ol>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <form>
+        <label>Name:
+          <input type="text" name="name" required>
+        </label>
+        <label>Email:
+          <input type="email" name="email" required>
+        </label>
+        <label>Reason for Contact:
+          <select name="reason">
+            <option value="job">Job Opportunity</option>
+            <option value="project">Project Collaboration</option>
+            <option value="other">Other</option>
+          </select>
+        </label>
+        <label>Message:
+          <textarea name="message" rows="4"></textarea>
+        </label>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <table>
+        <tr>
+          <th>Year</th>
+          <th>Degree</th>
+          <th>Institute</th>
+        </tr>
+        <tr>
+          <td>2022</td>
+          <td>B.Tech CSE</td>
+          <td>ABES Institute of Technology</td>
+        </tr>
+        <tr>
+          <td>2018</td>
+          <td>12th Board</td>
+          <td>CBSE</td>
+        </tr>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 John Doe | Full Stack Developer
+  </footer>
+
+</body>
+</html>
