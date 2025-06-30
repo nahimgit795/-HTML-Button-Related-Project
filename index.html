@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML Button Interactions</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      margin: 40px;
+    }
+
+    .box {
+      border: 1px solid #aaa;
+      padding: 15px;
+      margin: 20px auto;
+      max-width: 400px;
+    }
+
+    button, input[type="submit"] {
+      padding: 10px 20px;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>HTML Button Interaction Examples</h1>
+
+  <div class="box">
+    <h2>1. Basic Button</h2>
+    <button>Click Me</button>
+  </div>
+
+  <div class="box">
+    <h2>2. Button in a Form</h2>
+    <form action="#">
+      <label>Name:
+        <input type="text" name="name">
+      </label><br><br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <div class="box">
+    <h2>3. Details Toggle (No JS)</h2>
+    <details>
+      <summary>Click to Expand</summary>
+      <p>This is hidden content revealed using only HTML tags!</p>
+    </details>
+  </div>
+
+  <div class="box">
+    <h2>4. Disabled Button</h2>
+    <button disabled>Disabled</button>
+  </div>
+
+  <div class="box">
+    <h2>5. Radio Button Group</h2>
+    <form>
+      <label><input type="radio" name="color"> Red</label><br>
+      <label><input type="radio" name="color"> Blue</label><br>
+      <label><input type="radio" name="color"> Green</label>
+    </form>
+  </div>
+
+</body>
+</html>
